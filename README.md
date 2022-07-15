@@ -12,5 +12,5 @@ https://bityli.com/VSVRBk
 </p>
 
 ## Desenvolvedores
-Bruno Cesar de Oliveira Franco
-Elifio Silva Junior
+<p>Bruno Cesar de Oliveira Franco</p>
+<p>Elifio Silva Junior</p>
