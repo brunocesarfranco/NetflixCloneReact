@@ -13,8 +13,8 @@ Projeto de estudo desenvolvido em ReactJS
 <p>PT2 - https://bityli.com/lTVhdu</p>
 
 ## Comandos Importantes:
-npx create-react-app netflix-clone - Projeto inicial do React (Ja vem com README e gitgnore)
-npm install react-scripts --save - Baixa o pacote de modulos do React
+<p>npx create-react-app netflix-clone - Projeto inicial do React (Ja vem com README e gitgnore)</p>
+<p>npm install react-scripts --save - Baixa o pacote de modulos do React</p>
 
 ## Desenvolvedores
 <p>Bruno Cesar de Oliveira Franco</p>
