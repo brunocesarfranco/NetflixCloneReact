@@ -24,7 +24,7 @@ const Categories = [
     {
         name: "romances",
         title: "Romances",
-        path: `/treding/all/week?api_key=${API_KEY}&with_genres=1074`,
+        path: `/discover/tv?api_key=${API_KEY}&with_genres=1074`,
     },
     {
         name: "documentaries",
