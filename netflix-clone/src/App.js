@@ -1,37 +1,28 @@
-import './App.css';
-import Row from './components/Row';
-import categories from './api';
+import "./App.css";
+import Row from "./components/Row";
+import categories from "./api";
 import Banner from "./components/Banner";
+
 
 function App() {
   return (
     <div className="App">
       {/* Navbar */}
       {/* Destaque */}
-<<<<<<< Updated upstream
+
       {/* Em Alta */}
+      <Banner />
       {categories.map((category, index) => {
-        return <Row 
+        return (
+        <Row 
         key={category.name} 
         title={category.title} 
         path={category.path}
-        />;
-=======
-      <Banner />
-      {categories.map((category) => {
-        return (
-          <Row
-            key={category.name} 
-            title={category.title} 
-            path={category.path}
-            isLarge={category.isLarge}
+        isLarge={category.isLarge}
         />
         );
->>>>>>> Stashed changes
-      })}
-    </div>
+        })}
+      </div>
   );
 }
-
-
 export default App;

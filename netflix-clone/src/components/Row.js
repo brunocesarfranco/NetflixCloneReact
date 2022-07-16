@@ -20,10 +20,7 @@ function Row({title, path, isLarge}) {
   useEffect(() => {
     fetchMovies(path);
   }, [path]);
-  
-<<<<<<< Updated upstream
-  return <div>Row</div>;
-=======
+
   return (
     <div className="row-container">
       <h2 className="row-header">{title}</h2>
@@ -42,6 +39,5 @@ function Row({title, path, isLarge}) {
       </div>
     </div>
   );
->>>>>>> Stashed changes
 }
 export default Row;
