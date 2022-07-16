@@ -14,7 +14,13 @@ Projeto de estudo desenvolvido em ReactJS
 
 ## Comandos Importantes:
 <p>npx create-react-app netflix-clone - Projeto inicial do React (Ja vem com README e gitgnore)</p>
-<p>npm install react-scripts --save - Baixa o pacote de modulos do React</p> 
+<p>npm install react-scripts --save - Baixa o pacote de modulos do React</p>
+
+Deploy
+<p>firebase login - Conecta a conta Google</p> 
+<p>npm run build  - Roda build com arquivos atuais</p> 
+<p>npm run build  - Roda build com arquivos atuais</p> 
+<p>firebase deploy - Gera deploy da basta build</p> 
 
 ## Desenvolvedores
 <p>Bruno Cesar de Oliveira Franco</p>
