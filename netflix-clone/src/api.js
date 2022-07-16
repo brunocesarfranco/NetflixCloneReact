@@ -46,7 +46,7 @@ export const getMovies = async (path) => {
         const response = await fetch(url);
         return await response.json();
     } catch (error) {
-        console.log("error getMovies: ", error);
+        throw error;
     }
 }
 export default categories;
