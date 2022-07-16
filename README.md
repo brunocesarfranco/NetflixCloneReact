@@ -31,9 +31,9 @@ Projeto de estudo desenvolvido em ReactJS
 <p>Elifio Silva Junior</p>
 
 
-
-#English Version
-# Aplication Deployed
+<br><br>
+# English Version
+## Aplication Deployed
 <p>https://netflix-clone-b7607.web.app/</p>
 
 ## Description
