@@ -1,4 +1,6 @@
 import './App.css';
+import Row from './components/Row';
+import categories from './api';
 
 function App() {
   return (
@@ -6,7 +8,13 @@ function App() {
       {/* Navbar */}
       {/* Destaque */}
       {/* Em Alta */}
-      {/* Filmes Categorias */}
+      {categories.map((category, index) => {
+        return <Row 
+        key={category.name} 
+        title={category.title} 
+        path={category.path}
+        />;
+      })}
     </div>
   );
 }
