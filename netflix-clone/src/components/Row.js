@@ -1,6 +1,8 @@
-import React, { useEffect } from 'react';
-import { getMovies } from '../api';
-import './Row.css';
+import React, { useEffect } from "react";
+//import ReactPlayer from "react-player";
+//import movieTrailer from "movie-trailer";
+import { getMovies } from "../api";
+import "./Row.css";
 
 const imageHost = "https://image.tmdb.org/t/p/original/";
 function Row({title, path, isLarge}) {
@@ -33,7 +35,8 @@ function Row({title, path, isLarge}) {
             src={`${imageHost}${
               isLarge ? movie.backdrop_path : movie.poster_path
             }`} 
-            alt={movie.name}></img>
+            alt={movie.name}
+            ></img>
           );
         })}
       </div>
